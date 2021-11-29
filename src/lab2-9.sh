@@ -10,4 +10,3 @@ do
 done < DB.txt
 
 exit 0
-
