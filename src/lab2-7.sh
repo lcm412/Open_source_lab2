@@ -1,9 +1,9 @@
 #!/bin/bash
 
+echo "type folder name "
 read FolderName
 mkdir $FolderName
 cd $FolderName
-
 
 for ((i=0; i<5; i++))
 do
