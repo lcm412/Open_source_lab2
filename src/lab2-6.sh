@@ -12,7 +12,7 @@ function untar(){
 	tar -xf files.tar
 }
 
-
+echo "type folder name "
 read FolderName
 
 if [ -e ~/oss_lab2/$FolderName ]; then
@@ -24,4 +24,3 @@ fi
 mktar
 untar
 exit 0
-
